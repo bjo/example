@@ -1,0 +1,448 @@
+INFO  - 2013-10-05 06:57:30.892; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-10-05 06:57:30.914; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/bjo/workspace/solr-4.5.0/example/contexts at interval 0
+INFO  - 2013-10-05 06:57:30.920; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/bjo/workspace/solr-4.5.0/example/contexts/solr-jetty-context.xml
+INFO  - 2013-10-05 06:57:30.968; org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war!/ to /home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp
+INFO  - 2013-10-05 06:57:32.123; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-10-05 06:57:32.149; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-10-05 06:57:32.165; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-10-05 06:57:32.166; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2013-10-05 06:57:32.166; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2013-10-05 06:57:32.244; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/bjo/workspace/solr-4.5.0/example/solr/solr.xml
+INFO  - 2013-10-05 06:57:32.340; org.apache.solr.core.ConfigSolrXml; Config-defined core root directory: 
+INFO  - 2013-10-05 06:57:32.345; org.apache.solr.core.CoreContainer; New CoreContainer 1211763377
+INFO  - 2013-10-05 06:57:32.345; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2013-10-05 06:57:32.356; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-10-05 06:57:32.356; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-10-05 06:57:32.356; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-10-05 06:57:32.357; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-10-05 06:57:32.357; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-10-05 06:57:32.358; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-10-05 06:57:32.358; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-10-05 06:57:32.358; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-10-05 06:57:32.358; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-10-05 06:57:32.363; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-10-05 06:57:32.519; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-10-05 06:57:32.520; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-10-05 06:57:32.545; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/bjo/workspace/solr-4.5.0/example/solr
+INFO  - 2013-10-05 06:57:32.558; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /home/bjo/workspace/solr-4.5.0/example/solr/collection1/
+INFO  - 2013-10-05 06:57:32.558; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2013-10-05 06:57:32.561; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: /home/bjo/workspace/solr-4.5.0/example/solr/collection1
+INFO  - 2013-10-05 06:57:32.562; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/bjo/workspace/solr-4.5.0/example/solr/collection1/'
+INFO  - 2013-10-05 06:57:32.619; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2013-10-05 06:57:32.621; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.621; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/fontbox-1.8.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.621; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/poi-scratchpad-3.9.jar' to classloader
+INFO  - 2013-10-05 06:57:32.621; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2013-10-05 06:57:32.621; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/poi-3.9.jar' to classloader
+INFO  - 2013-10-05 06:57:32.622; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2013-10-05 06:57:32.622; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.622; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.622; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2013-10-05 06:57:32.622; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.622; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.622; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/netcdf-4.2-min.jar' to classloader
+INFO  - 2013-10-05 06:57:32.623; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/xmlbeans-2.3.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.623; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2013-10-05 06:57:32.623; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2013-10-05 06:57:32.623; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/pdfbox-1.8.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.623; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/tika-parsers-1.4.jar' to classloader
+INFO  - 2013-10-05 06:57:32.623; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/icu4j-49.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.623; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.624; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2013-10-05 06:57:32.624; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/xz-1.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.624; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/poi-ooxml-schemas-3.9.jar' to classloader
+INFO  - 2013-10-05 06:57:32.624; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.624; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2013-10-05 06:57:32.624; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/jempbox-1.8.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.624; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/tika-core-1.4.jar' to classloader
+INFO  - 2013-10-05 06:57:32.625; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/poi-ooxml-3.9.jar' to classloader
+INFO  - 2013-10-05 06:57:32.625; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/commons-compress-1.4.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.625; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.626; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/dist/solr-cell-4.5.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.626; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/attributes-binder-1.2.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.627; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/jackson-core-asl-1.7.4.jar' to classloader
+INFO  - 2013-10-05 06:57:32.627; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2013-10-05 06:57:32.627; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2013-10-05 06:57:32.627; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2013-10-05 06:57:32.627; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.627; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/carrot2-mini-3.8.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.627; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/jackson-mapper-asl-1.7.4.jar' to classloader
+INFO  - 2013-10-05 06:57:32.628; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/dist/solr-clustering-4.5.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.628; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2013-10-05 06:57:32.628; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2013-10-05 06:57:32.629; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/dist/solr-langid-4.5.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.630; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/velocity/lib/commons-beanutils-1.7.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.630; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2013-10-05 06:57:32.630; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.630; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2013-10-05 06:57:32.631; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/dist/solr-velocity-4.5.0.jar' to classloader
+INFO  - 2013-10-05 06:57:32.730; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2013-10-05 06:57:32.733; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-05 06:57:32.814; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-05 06:57:32.818; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-05 06:57:32.881; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2013-10-05 06:57:33.398; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-05 06:57:47.933; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-10-05 06:57:47.940; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-10-05 06:57:48.039; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-10-05 06:57:48.044; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /home/bjo/workspace/solr-4.5.0/example/solr/collection1/, dataDir=/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/
+INFO  - 2013-10-05 06:57:48.046; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2013-10-05 06:57:48.050; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2013-10-05 06:57:48.050; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2013-10-05 06:57:48.061; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data
+INFO  - 2013-10-05 06:57:48.061; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index/
+WARN  - 2013-10-05 06:57:48.061; org.apache.solr.core.SolrCore; [collection1] Solr index directory '/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index' doesn't exist. Creating new index...
+INFO  - 2013-10-05 06:57:48.066; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index
+INFO  - 2013-10-05 06:57:48.127; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@74e16785; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2013-10-05 06:57:48.134; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-05 06:57:48.137; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2013-10-05 06:57:48.137; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2013-10-05 06:57:48.138; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2013-10-05 06:57:48.141; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2013-10-05 06:57:48.142; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2013-10-05 06:57:48.212; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-05 06:57:48.218; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.218; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.219; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-05 06:57:48.220; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.222; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-05 06:57:48.223; org.apache.solr.core.RequestHandlers; created /update/json: solr.JsonUpdateRequestHandler
+INFO  - 2013-10-05 06:57:48.224; org.apache.solr.core.RequestHandlers; created /update/csv: solr.CSVRequestHandler
+INFO  - 2013-10-05 06:57:48.224; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-10-05 06:57:48.225; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-10-05 06:57:48.225; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-05 06:57:48.225; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-05 06:57:48.225; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-10-05 06:57:48.225; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-10-05 06:57:48.226; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2013-10-05 06:57:48.228; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-05 06:57:48.229; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2013-10-05 06:57:48.236; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-05 06:57:48.236; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.236; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.236; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.237; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.237; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.237; org.apache.solr.core.RequestHandlers; created /clustering: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.237; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-10-05 06:57:48.237; org.apache.solr.core.RequestHandlers; created /js: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-10-05 06:57:48.237; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.237; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.237; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.238; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2013-10-05 06:57:48.252; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-05 06:57:48.255; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-05 06:57:48.256; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-05 06:57:48.274; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2013-10-05 06:57:48.274; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-05 06:57:48.280; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@74e16785; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2013-10-05 06:57:48.281; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-05 06:57:48.288; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@6d8f729c main
+INFO  - 2013-10-05 06:57:48.292; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2013-10-05 06:57:48.297; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2013-10-05 06:57:48.301; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2013-10-05 06:57:48.302; org.apache.solr.handler.clustering.ClusteringComponent; Initializing Clustering Engines
+INFO  - 2013-10-05 06:57:48.321; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'lingo'
+INFO  - 2013-10-05 06:57:48.323; org.apache.solr.handler.clustering.carrot2.SolrResourceLocator; Loaded Solr resource: clustering/carrot2/lingo-attributes.xml
+INFO  - 2013-10-05 06:57:48.456; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'stc'
+INFO  - 2013-10-05 06:57:48.456; org.apache.solr.handler.clustering.carrot2.SolrResourceLocator; Loaded Solr resource: clustering/carrot2/stc-attributes.xml
+INFO  - 2013-10-05 06:57:48.461; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'kmeans'
+INFO  - 2013-10-05 06:57:48.462; org.apache.solr.handler.clustering.carrot2.SolrResourceLocator; Loaded Solr resource: clustering/carrot2/kmeans-attributes.xml
+INFO  - 2013-10-05 06:57:48.470; org.apache.solr.handler.clustering.ClusteringComponent; Default engine for search results clustering: lingo
+INFO  - 2013-10-05 06:57:48.470; org.apache.solr.handler.clustering.ClusteringComponent; Finished Initializing Clustering Engines
+INFO  - 2013-10-05 06:57:48.471; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/bjo/workspace/solr-4.5.0/example/solr/collection1/conf/elevate.xml
+INFO  - 2013-10-05 06:57:48.488; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2013-10-05 06:57:48.489; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@6d8f729c main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-05 06:57:48.490; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2013-10-05 06:57:48.495; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/bjo/workspace/solr-4.5.0/example
+INFO  - 2013-10-05 06:57:48.495; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-10-05 06:57:48.517; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-05 06:57:48.529; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=38 
+INFO  - 2013-10-05 06:57:48.530; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2013-10-05 06:57:48.530; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2013-10-05 06:57:48.530; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2013-10-05 06:57:48.531; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@6d8f729c main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-05 06:57:55.888; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1380981475883&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 06:57:55.938; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1380981475912&wt=json} status=0 QTime=24 
+INFO  - 2013-10-05 06:58:02.284; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1380981482281&since=0&wt=json} status=0 QTime=2 
+INFO  - 2013-10-05 06:58:08.666; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1380981488663&contentType=text/html;charset%3Dutf-8} status=0 QTime=1 
+INFO  - 2013-10-05 06:58:08.667; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1380981488663&contentType=text/html;charset%3Dutf-8} status=0 QTime=0 
+INFO  - 2013-10-05 06:58:08.680; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1380981488677} status=0 QTime=0 
+INFO  - 2013-10-05 06:58:08.681; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380981488673&show=index&wt=json} status=0 QTime=3 
+INFO  - 2013-10-05 06:58:08.682; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={action=status&_=1380981488678&wt=json} status=503 QTime=2 
+INFO  - 2013-10-05 06:58:08.685; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/replication params={command=details&_=1380981488676&wt=json} status=0 QTime=6 
+INFO  - 2013-10-05 06:58:08.702; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/system params={_=1380981488677&wt=json} status=0 QTime=20 
+INFO  - 2013-10-05 06:58:15.676; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file params={file=schema.xml&_=1380981495673&contentType=text/xml;charset%3Dutf-8} status=0 QTime=0 
+INFO  - 2013-10-05 06:58:26.310; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380981506307&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 06:58:26.321; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={_=1380981506315&show=schema&wt=json} status=0 QTime=3 
+INFO  - 2013-10-05 06:58:28.716; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380981508714&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 06:58:28.724; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={_=1380981508718&show=schema&wt=json} status=0 QTime=4 
+INFO  - 2013-10-05 06:58:31.599; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380981511598&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 06:58:31.606; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={_=1380981511602&show=schema&wt=json} status=0 QTime=2 
+INFO  - 2013-10-05 06:58:39.418; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380981519417&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 06:58:39.424; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={_=1380981519420&show=schema&wt=json} status=0 QTime=2 
+INFO  - 2013-10-05 06:58:41.054; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/replication params={command=details&_=1380981521052&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 06:58:47.039; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/mbeans params={stats=true&_=1380981527018&wt=json} status=0 QTime=19 
+INFO  - 2013-10-05 06:58:51.712; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={ts=1380981531707&_=1380981531708&wt=json} hits=0 status=0 QTime=2 
+INFO  - 2013-10-05 06:58:51.713; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={ts=1380981531707&_=1380981531708&wt=json} status=0 QTime=3 
+INFO  - 2013-10-05 06:58:53.014; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={ts=1380981533011&_=1380981533011&wt=json} hits=0 status=0 QTime=0 
+INFO  - 2013-10-05 06:58:53.015; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={ts=1380981533011&_=1380981533011&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 06:59:05.996; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1380981545994&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 06:59:07.314; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file params={file=solrconfig.xml&_=1380981547311&contentType=text/xml;charset%3Dutf-8} status=0 QTime=0 
+INFO  - 2013-10-05 06:59:29.325; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={_=1380981569322&show=schema&wt=json} status=0 QTime=2 
+INFO  - 2013-10-05 06:59:30.280; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380981570278&show=index&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 06:59:30.281; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/replication params={command=details&_=1380981570279&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 06:59:30.285; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={action=status&_=1380981570281&wt=json} status=503 QTime=0 
+INFO  - 2013-10-05 06:59:30.287; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1380981570280} status=0 QTime=0 
+INFO  - 2013-10-05 06:59:30.300; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/system params={_=1380981570280&wt=json} status=0 QTime=19 
+INFO  - 2013-10-05 06:59:34.678; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/properties params={_=1380981574675&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 06:59:43.313; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1380981583310&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 06:59:43.323; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1380981583322&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 06:59:45.621; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1380981585619&since=0&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 07:19:09.686; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-05 07:19:09.687; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-05 07:19:10.688; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1211763377
+INFO  - 2013-10-05 07:19:10.689; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@617d7c7f
+INFO  - 2013-10-05 07:19:10.689; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-05 07:19:10.690; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-05 07:19:10.690; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-05 07:19:10.690; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-05 07:19:10.692; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2013-10-05 07:19:10.693; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-05 07:19:10.694; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data;done=false>>]
+INFO  - 2013-10-05 07:19:10.694; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data
+INFO  - 2013-10-05 07:19:10.695; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index;done=false>>]
+INFO  - 2013-10-05 07:19:10.695; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index
+INFO  - 2013-10-05 07:19:10.698; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-05 11:17:37.832; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-10-05 11:17:37.848; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/bjo/workspace/solr-4.5.0/example/contexts at interval 0
+INFO  - 2013-10-05 11:17:37.852; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/bjo/workspace/solr-4.5.0/example/contexts/solr-jetty-context.xml
+INFO  - 2013-10-05 11:17:38.648; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-10-05 11:17:38.678; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-10-05 11:17:38.687; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-10-05 11:17:38.687; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2013-10-05 11:17:38.687; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2013-10-05 11:17:38.759; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/bjo/workspace/solr-4.5.0/example/solr/solr.xml
+INFO  - 2013-10-05 11:17:38.820; org.apache.solr.core.ConfigSolrXml; Config-defined core root directory: 
+INFO  - 2013-10-05 11:17:38.824; org.apache.solr.core.CoreContainer; New CoreContainer 10202458
+INFO  - 2013-10-05 11:17:38.825; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2013-10-05 11:17:38.834; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-10-05 11:17:38.834; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-10-05 11:17:38.834; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-10-05 11:17:38.835; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-10-05 11:17:38.836; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-10-05 11:17:38.836; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-10-05 11:17:38.836; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-10-05 11:17:38.836; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-10-05 11:17:38.837; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-10-05 11:17:38.841; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-10-05 11:17:38.975; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-10-05 11:17:38.975; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-10-05 11:17:38.999; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/bjo/workspace/solr-4.5.0/example/solr
+INFO  - 2013-10-05 11:17:39.010; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /home/bjo/workspace/solr-4.5.0/example/solr/collection1/
+INFO  - 2013-10-05 11:17:39.010; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2013-10-05 11:17:39.011; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: /home/bjo/workspace/solr-4.5.0/example/solr/collection1
+INFO  - 2013-10-05 11:17:39.012; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/bjo/workspace/solr-4.5.0/example/solr/collection1/'
+INFO  - 2013-10-05 11:17:39.075; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2013-10-05 11:17:39.077; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.077; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/fontbox-1.8.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.077; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/poi-scratchpad-3.9.jar' to classloader
+INFO  - 2013-10-05 11:17:39.077; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2013-10-05 11:17:39.077; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/poi-3.9.jar' to classloader
+INFO  - 2013-10-05 11:17:39.077; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2013-10-05 11:17:39.078; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.078; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.078; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2013-10-05 11:17:39.078; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.078; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.078; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/netcdf-4.2-min.jar' to classloader
+INFO  - 2013-10-05 11:17:39.078; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/xmlbeans-2.3.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.079; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2013-10-05 11:17:39.079; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2013-10-05 11:17:39.079; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/pdfbox-1.8.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.079; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/tika-parsers-1.4.jar' to classloader
+INFO  - 2013-10-05 11:17:39.079; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/icu4j-49.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.079; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.079; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2013-10-05 11:17:39.080; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/xz-1.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.080; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/poi-ooxml-schemas-3.9.jar' to classloader
+INFO  - 2013-10-05 11:17:39.080; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.080; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2013-10-05 11:17:39.080; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/jempbox-1.8.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.080; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/tika-core-1.4.jar' to classloader
+INFO  - 2013-10-05 11:17:39.081; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/poi-ooxml-3.9.jar' to classloader
+INFO  - 2013-10-05 11:17:39.081; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/commons-compress-1.4.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.081; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.081; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/dist/solr-cell-4.5.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.082; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/attributes-binder-1.2.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.082; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/jackson-core-asl-1.7.4.jar' to classloader
+INFO  - 2013-10-05 11:17:39.082; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2013-10-05 11:17:39.083; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2013-10-05 11:17:39.083; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2013-10-05 11:17:39.083; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.083; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/carrot2-mini-3.8.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.083; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/clustering/lib/jackson-mapper-asl-1.7.4.jar' to classloader
+INFO  - 2013-10-05 11:17:39.084; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/dist/solr-clustering-4.5.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.084; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2013-10-05 11:17:39.084; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2013-10-05 11:17:39.085; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/dist/solr-langid-4.5.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.085; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/velocity/lib/commons-beanutils-1.7.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.085; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2013-10-05 11:17:39.086; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.086; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2013-10-05 11:17:39.086; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/bjo/workspace/solr-4.5.0/dist/solr-velocity-4.5.0.jar' to classloader
+INFO  - 2013-10-05 11:17:39.184; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2013-10-05 11:17:39.188; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-05 11:17:39.275; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-05 11:17:39.280; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-05 11:17:39.343; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2013-10-05 11:17:39.715; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-05 11:17:39.772; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-10-05 11:17:39.777; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-10-05 11:17:39.879; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-10-05 11:17:39.885; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /home/bjo/workspace/solr-4.5.0/example/solr/collection1/, dataDir=/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/
+INFO  - 2013-10-05 11:17:39.886; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2013-10-05 11:17:39.889; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2013-10-05 11:17:39.889; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2013-10-05 11:17:39.900; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data
+INFO  - 2013-10-05 11:17:39.901; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index/
+INFO  - 2013-10-05 11:17:39.901; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index
+INFO  - 2013-10-05 11:17:39.908; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2013-10-05 11:17:39.908; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2013-10-05 11:17:39.909; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2013-10-05 11:17:39.912; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2013-10-05 11:17:39.913; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2013-10-05 11:17:39.980; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-05 11:17:39.986; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2013-10-05 11:17:39.987; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2013-10-05 11:17:39.988; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-05 11:17:39.988; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+INFO  - 2013-10-05 11:17:39.990; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-05 11:17:39.991; org.apache.solr.core.RequestHandlers; created /update/json: solr.JsonUpdateRequestHandler
+INFO  - 2013-10-05 11:17:39.992; org.apache.solr.core.RequestHandlers; created /update/csv: solr.CSVRequestHandler
+INFO  - 2013-10-05 11:17:39.992; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-10-05 11:17:39.992; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-10-05 11:17:39.993; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-05 11:17:39.993; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-05 11:17:39.993; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-10-05 11:17:39.993; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-10-05 11:17:39.994; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2013-10-05 11:17:39.996; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-05 11:17:39.997; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2013-10-05 11:17:40.003; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-05 11:17:40.003; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.003; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.003; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.003; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.003; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.003; org.apache.solr.core.RequestHandlers; created /clustering: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.004; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-10-05 11:17:40.004; org.apache.solr.core.RequestHandlers; created /js: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-10-05 11:17:40.004; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.004; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.004; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.004; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2013-10-05 11:17:40.018; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-05 11:17:40.021; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-05 11:17:40.022; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-05 11:17:40.038; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2013-10-05 11:17:40.038; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-05 11:17:40.074; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@76a8a314; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2013-10-05 11:17:40.074; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-05 11:17:40.079; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@448d5a91 main
+INFO  - 2013-10-05 11:17:40.083; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2013-10-05 11:17:40.088; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2013-10-05 11:17:40.092; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2013-10-05 11:17:40.093; org.apache.solr.handler.clustering.ClusteringComponent; Initializing Clustering Engines
+INFO  - 2013-10-05 11:17:40.110; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'lingo'
+INFO  - 2013-10-05 11:17:40.112; org.apache.solr.handler.clustering.carrot2.SolrResourceLocator; Loaded Solr resource: clustering/carrot2/lingo-attributes.xml
+INFO  - 2013-10-05 11:17:40.243; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'stc'
+INFO  - 2013-10-05 11:17:40.243; org.apache.solr.handler.clustering.carrot2.SolrResourceLocator; Loaded Solr resource: clustering/carrot2/stc-attributes.xml
+INFO  - 2013-10-05 11:17:40.249; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'kmeans'
+INFO  - 2013-10-05 11:17:40.249; org.apache.solr.handler.clustering.carrot2.SolrResourceLocator; Loaded Solr resource: clustering/carrot2/kmeans-attributes.xml
+INFO  - 2013-10-05 11:17:40.257; org.apache.solr.handler.clustering.ClusteringComponent; Default engine for search results clustering: lingo
+INFO  - 2013-10-05 11:17:40.257; org.apache.solr.handler.clustering.ClusteringComponent; Finished Initializing Clustering Engines
+INFO  - 2013-10-05 11:17:40.258; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/bjo/workspace/solr-4.5.0/example/solr/collection1/conf/elevate.xml
+INFO  - 2013-10-05 11:17:40.276; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2013-10-05 11:17:40.277; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@448d5a91 main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-05 11:17:40.277; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2013-10-05 11:17:40.279; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/bjo/workspace/solr-4.5.0/example
+INFO  - 2013-10-05 11:17:40.279; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-10-05 11:17:40.303; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-05 11:17:40.313; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=35 
+INFO  - 2013-10-05 11:17:40.314; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2013-10-05 11:17:40.314; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2013-10-05 11:17:40.314; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2013-10-05 11:17:40.314; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@448d5a91 main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-05 11:17:50.887; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1380997070883&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 11:17:50.934; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1380997070914&wt=json} status=0 QTime=19 
+INFO  - 2013-10-05 11:18:00.277; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1380997080275&since=0&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 11:18:10.296; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1380997090294&since=0&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 11:18:20.302; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1380997100300&since=0&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 11:18:30.310; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1380997110307&since=0&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 11:18:38.732; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1380997118727&contentType=text/html;charset%3Dutf-8} status=0 QTime=1 
+INFO  - 2013-10-05 11:18:38.735; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1380997118728&contentType=text/html;charset%3Dutf-8} status=0 QTime=0 
+INFO  - 2013-10-05 11:18:38.745; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380997118742&show=index&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 11:18:38.746; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/replication params={command=details&_=1380997118744&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 11:18:38.753; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1380997118746} status=0 QTime=0 
+INFO  - 2013-10-05 11:18:38.755; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={action=status&_=1380997118747&wt=json} status=503 QTime=5 
+INFO  - 2013-10-05 11:18:38.784; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/system params={_=1380997118745&wt=json} status=0 QTime=34 
+INFO  - 2013-10-05 11:18:48.431; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380997128429&show=index&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 11:18:48.432; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/replication params={command=details&_=1380997128430&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 11:18:48.437; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={action=status&_=1380997128432&wt=json} status=503 QTime=1 
+INFO  - 2013-10-05 11:18:48.437; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1380997128431} status=0 QTime=1 
+INFO  - 2013-10-05 11:18:48.452; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/system params={_=1380997128431&wt=json} status=0 QTime=20 
+INFO  - 2013-10-05 11:20:51.989; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[GB18030TEST (1448080574471208960)]} 0 54
+INFO  - 2013-10-05 11:20:52.013; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[SP2514N (1448080574513152000), 6H500F0 (1448080574521540608)]} 0 14
+INFO  - 2013-10-05 11:20:52.033; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[F8V7067-APL-KIT (1448080574539366400), IW-02 (1448080574543560704)]} 0 9
+INFO  - 2013-10-05 11:20:52.051; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[MA147LL/A (1448080574558240768)]} 0 9
+INFO  - 2013-10-05 11:20:52.065; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[adata (1448080574572920832), apple (1448080574573969408), asus (1448080574575017984), ati (1448080574575017985), belkin (1448080574576066560), canon (1448080574576066561), corsair (1448080574577115136), dell (1448080574577115137), maxtor (1448080574578163712), samsung (1448080574579212288), ... (11 adds)]} 0 8
+INFO  - 2013-10-05 11:20:52.091; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[TWINX2048-3200PRO (1448080574594940928), VS1GB400C3 (1448080574602280960), VDBDB1A16 (1448080574606475264)]} 0 14
+INFO  - 2013-10-05 11:20:52.109; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[USD (1448080574619058176), EUR (1448080574621155328), GBP (1448080574623252480), NOK (1448080574625349632)]} 0 9
+INFO  - 2013-10-05 11:20:52.122; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[VA902B (1448080574637932544)]} 0 4
+INFO  - 2013-10-05 11:20:52.135; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[3007WFP (1448080574650515456)]} 0 5
+INFO  - 2013-10-05 11:20:52.150; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[0579B002 (1448080574666244096)]} 0 5
+INFO  - 2013-10-05 11:20:52.163; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[9885A004 (1448080574679875584)]} 0 5
+INFO  - 2013-10-05 11:20:52.179; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[SOLR1000 (1448080574696652800)]} 0 5
+INFO  - 2013-10-05 11:20:52.192; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[UTF8TEST (1448080574709235712)]} 0 7
+INFO  - 2013-10-05 11:20:52.211; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {add=[EN7800GTX/2DHTV/256M (1448080574726012928), 100-435805 (1448080574731255808)]} 0 9
+INFO  - 2013-10-05 11:20:52.219; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+INFO  - 2013-10-05 11:20:52.289; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@c106121 main
+INFO  - 2013-10-05 11:20:52.290; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2013-10-05 11:20:52.290; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@c106121 main{StandardDirectoryReader(segments_1:3:nrt _0(4.5):C32)}
+INFO  - 2013-10-05 11:20:52.291; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2013-10-05 11:20:52.291; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@c106121 main{StandardDirectoryReader(segments_1:3:nrt _0(4.5):C32)}
+INFO  - 2013-10-05 11:20:52.291; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={softCommit=true} {commit=} 0 72
+INFO  - 2013-10-05 11:21:02.043; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1380997262041&show=index&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 11:21:02.045; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/replication params={command=details&_=1380997262042&wt=json} status=0 QTime=1 
+INFO  - 2013-10-05 11:21:02.048; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1380997262043} status=0 QTime=0 
+INFO  - 2013-10-05 11:21:02.053; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={action=status&_=1380997262044&wt=json} status=503 QTime=1 
+INFO  - 2013-10-05 11:21:02.077; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/system params={_=1380997262043&wt=json} status=0 QTime=29 
+INFO  - 2013-10-05 11:21:06.988; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2013-10-05 11:21:07.012; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@76a8a314; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@76a8a314; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+INFO  - 2013-10-05 11:21:07.012; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2
+INFO  - 2013-10-05 11:21:07.012; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2013-10-05 11:21:12.606; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={indent=true&q=samsung&_=1380997272591&wt=json} hits=1 status=0 QTime=11 
+INFO  - 2013-10-05 11:25:26.643; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={indent=true&q=canon%0a&_=1380997526639&wt=json} hits=2 status=0 QTime=1 
+INFO  - 2013-10-05 11:25:50.797; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1380997550795&wt=json} status=0 QTime=0 
+INFO  - 2013-10-05 11:25:50.826; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1380997550810&wt=json} status=0 QTime=15 
+INFO  - 2013-10-05 16:25:49.449; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-05 16:25:49.449; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-05 16:25:50.450; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=10202458
+INFO  - 2013-10-05 16:25:50.451; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@4cad4d40
+INFO  - 2013-10-05 16:25:50.451; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=2,autocommit maxTime=15000ms,autocommits=1,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=32,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-05 16:25:50.451; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-05 16:25:50.451; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-05 16:25:50.451; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-05 16:25:50.453; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2013-10-05 16:25:50.453; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-05 16:25:50.454; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data;done=false>>]
+INFO  - 2013-10-05 16:25:50.454; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data
+INFO  - 2013-10-05 16:25:50.454; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index;done=false>>]
+INFO  - 2013-10-05 16:25:50.454; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/solr/collection1/data/index
+INFO  - 2013-10-05 16:25:50.455; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
