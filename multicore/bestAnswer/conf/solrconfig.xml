@@ -27,7 +27,7 @@
         solr.RAMDirectoryFactory is memory based, not persistent, and doesn't work with replication. -->
   <directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
 
-  <dataDir>${solr.core0.data.dir:}</dataDir>
+  <dataDir>${solr.bestAnswer.data.dir:}</dataDir>
 
   <!-- To enable dynamic schema REST APIs, use the following for <schemaFactory>:
   
@@ -53,7 +53,7 @@
 
   <updateHandler class="solr.DirectUpdateHandler2">
     <updateLog>
-      <str name="dir">${solr.core0.data.dir:}</str>
+      <str name="dir">${solr.bestAnswer.data.dir:}</str>
     </updateLog>
   </updateHandler>
 
@@ -64,7 +64,7 @@
     <lst name="defaults">
       <str name="omitHeader">true</str>
     </lst>
-  </requestHandler>  
+  </requestHandler>
   
   <requestHandler name="/replication" class="solr.ReplicationHandler" startup="lazy" /> 
 
@@ -76,7 +76,7 @@
   <requestHandler name="/analysis/field" startup="lazy" class="solr.FieldAnalysisRequestHandler" />
   <requestHandler name="/update" class="solr.UpdateRequestHandler"  />
   <requestHandler name="/admin/" class="org.apache.solr.handler.admin.AdminHandlers" />
-     
+
   <requestHandler name="/admin/ping" class="solr.PingRequestHandler">
     <lst name="invariants">
       <str name="q">solrpingquery</str>
@@ -85,7 +85,7 @@
       <str name="echoParams">all</str>
     </lst>
   </requestHandler>
-   
+
   <!-- config for the admin interface --> 
   <admin>
     <defaultQuery>solr</defaultQuery>
