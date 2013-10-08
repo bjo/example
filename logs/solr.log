@@ -1681,3 +1681,1032 @@ INFO  - 2013-10-07 23:29:13.863; org.apache.solr.core.SolrCore; [bestAnswer] web
 INFO  - 2013-10-07 23:29:21.304; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={lowercaseOperators=true&mm=-1&debugQuery=true&indent=true&q="bunch+of+stuff"&_=1381213761292&stopwords=true&wt=json&defType=dismax&defType=edismax} hits=0 status=0 QTime=9 
 INFO  - 2013-10-07 23:29:29.464; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={lowercaseOperators=true&mm=-2&debugQuery=true&indent=true&q="bunch+of+stuff"&_=1381213769458&stopwords=true&wt=json&defType=dismax&defType=edismax} hits=0 status=0 QTime=2 
 INFO  - 2013-10-07 23:29:45.405; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={debugQuery=true&indent=true&q="bunch+of+stuff"&_=1381213785401&wt=json} hits=0 status=0 QTime=2 
+INFO  - 2013-10-08 03:19:14.872; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-10-08 03:19:14.887; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/bjo/workspace/solr-4.5.0/example/contexts at interval 0
+INFO  - 2013-10-08 03:19:14.890; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/bjo/workspace/solr-4.5.0/example/contexts/solr-jetty-context.xml
+INFO  - 2013-10-08 03:19:15.696; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-10-08 03:19:15.725; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-10-08 03:19:15.736; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-10-08 03:19:15.736; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: multicore
+INFO  - 2013-10-08 03:19:15.736; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/'
+INFO  - 2013-10-08 03:19:15.812; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/bjo/workspace/solr-4.5.0/example/multicore/solr.xml
+INFO  - 2013-10-08 03:19:15.878; org.apache.solr.core.CoreContainer; New CoreContainer 10202458
+INFO  - 2013-10-08 03:19:15.879; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=multicore/]
+INFO  - 2013-10-08 03:19:15.886; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-10-08 03:19:15.886; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-10-08 03:19:15.886; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-10-08 03:19:15.886; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-10-08 03:19:15.886; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-10-08 03:19:15.887; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-10-08 03:19:15.888; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-10-08 03:19:15.888; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-10-08 03:19:15.888; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-10-08 03:19:15.892; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-10-08 03:19:16.035; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-10-08 03:19:16.035; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-10-08 03:19:16.081; org.apache.solr.core.CoreContainer; Creating SolrCore 'bestAnswer' using instanceDir: multicore/bestAnswer
+INFO  - 2013-10-08 03:19:16.081; org.apache.solr.core.CoreContainer; Creating SolrCore 'UIMAtester' using instanceDir: multicore/UIMAtester
+INFO  - 2013-10-08 03:19:16.081; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/UIMAtester/'
+INFO  - 2013-10-08 03:19:16.081; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/bestAnswer/'
+INFO  - 2013-10-08 03:19:16.081; org.apache.solr.core.CoreContainer; Creating SolrCore 'productQuery' using instanceDir: multicore/productQuery
+INFO  - 2013-10-08 03:19:16.082; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/productQuery/'
+INFO  - 2013-10-08 03:19:16.135; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:19:16.136; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:19:16.148; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:19:16.217; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:19:16.222; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:19:16.225; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:19:16.225; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:19:16.229; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:19:16.230; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:19:16.233; org.apache.solr.schema.IndexSchema; [bestAnswer] Schema name=solr_bestAnswer
+INFO  - 2013-10-08 03:19:16.232; org.apache.solr.schema.IndexSchema; [UIMAtester] Schema name=example core one
+INFO  - 2013-10-08 03:19:16.239; org.apache.solr.schema.IndexSchema; [productQuery] Schema name=productQuery
+INFO  - 2013-10-08 03:19:16.276; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:19:16.285; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:19:16.279; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:19:16.287; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:19:16.287; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:19:16.287; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:19:16.291; org.apache.solr.schema.IndexSchema; default search field in schema is content
+INFO  - 2013-10-08 03:19:16.292; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:19:16.292; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:19:16.308; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:19:16.308; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:19:16.318; org.apache.solr.core.SolrCore; [UIMAtester] Opening new SolrCore at multicore/UIMAtester/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/
+INFO  - 2013-10-08 03:19:16.318; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: UIMAtester
+INFO  - 2013-10-08 03:19:16.318; org.apache.solr.core.SolrCore; [productQuery] Opening new SolrCore at multicore/productQuery/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/
+INFO  - 2013-10-08 03:19:16.319; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: productQuery
+INFO  - 2013-10-08 03:19:16.333; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:19:16.333; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index/
+INFO  - 2013-10-08 03:19:16.334; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:19:16.333; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:19:16.334; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index/
+INFO  - 2013-10-08 03:19:16.335; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:19:16.386; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:19:16.387; org.apache.solr.core.SolrCore; [bestAnswer] Opening new SolrCore at multicore/bestAnswer/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/
+INFO  - 2013-10-08 03:19:16.387; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: bestAnswer
+INFO  - 2013-10-08 03:19:16.387; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:19:16.387; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index/
+INFO  - 2013-10-08 03:19:16.388; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:19:16.407; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:19:16.407; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:19:16.407; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:19:16.416; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:19:16.416; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:19:16.416; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:19:16.416; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:19:16.417; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:19:16.416; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:19:16.417; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:19:16.417; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:19:16.417; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:19:16.421; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:19:16.421; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:19:16.421; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:19:16.423; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:19:16.421; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:19:16.424; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:19:16.421; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:19:16.424; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:19:16.424; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:19:16.424; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:19:16.425; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:19:16.425; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:19:16.425; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:19:16.426; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:19:16.427; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:19:16.427; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:19:16.428; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:19:16.428; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:19:16.440; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:19:16.440; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:19:16.440; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:19:16.454; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:19:16.454; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:19:16.454; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:19:16.455; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:19:16.470; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:19:16.471; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:19:16.494; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index,segFN=segments_5,generation=5}
+INFO  - 2013-10-08 03:19:16.494; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:19:16.495; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:19:16.494; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:19:16.495; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 5
+INFO  - 2013-10-08 03:19:16.495; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:19:16.508; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@2778c490 main
+INFO  - 2013-10-08 03:19:16.508; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@69b0de2e main
+INFO  - 2013-10-08 03:19:16.525; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@66e8c7db main
+INFO  - 2013-10-08 03:19:16.531; org.apache.solr.core.SolrCore; [productQuery] Registered new searcher Searcher@2778c490 main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:19:16.531; org.apache.solr.core.SolrCore; [bestAnswer] Registered new searcher Searcher@66e8c7db main{StandardDirectoryReader(segments_5:27:nrt _6(4.5):C1)}
+INFO  - 2013-10-08 03:19:16.531; org.apache.solr.core.SolrCore; [UIMAtester] Registered new searcher Searcher@69b0de2e main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:19:16.531; org.apache.solr.core.CoreContainer; registering core: productQuery
+INFO  - 2013-10-08 03:19:16.531; org.apache.solr.core.CoreContainer; registering core: UIMAtester
+INFO  - 2013-10-08 03:19:16.532; org.apache.solr.core.CoreContainer; registering core: bestAnswer
+INFO  - 2013-10-08 03:19:16.534; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/bjo/workspace/solr-4.5.0/example
+WARN  - 2013-10-08 03:19:16.534; org.apache.solr.update.UpdateLog$LogReplayer; Starting log replay tlog{file=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/tlog/tlog.0000000000000000003 refcount=2} active=false starting pos=0
+INFO  - 2013-10-08 03:19:16.534; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-10-08 03:19:16.565; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:19:16.571; org.apache.solr.update.DirectUpdateHandler2; start commit{flags=2,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2013-10-08 03:19:16.572; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2013-10-08 03:19:16.572; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4b7d03c5 main
+INFO  - 2013-10-08 03:19:16.572; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2013-10-08 03:19:16.573; org.apache.solr.core.SolrCore; [bestAnswer] Registered new searcher Searcher@4b7d03c5 main{StandardDirectoryReader(segments_5:27:nrt _6(4.5):C1)}
+INFO  - 2013-10-08 03:19:16.573; org.apache.solr.update.processor.LogUpdateProcessor; [bestAnswer] {add=[1 (1448307546431422464)]} 0 40
+WARN  - 2013-10-08 03:19:16.574; org.apache.solr.update.UpdateLog$LogReplayer; Log replay finished. recoveryInfo=RecoveryInfo{adds=1 deletes=0 deleteByQuery=0 errors=0 positionOfStart=0}
+INFO  - 2013-10-08 03:19:20.504; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227560481&show=schema&wt=json} status=0 QTime=13 
+INFO  - 2013-10-08 03:19:20.969; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={numTerms=0&_=1381227560967&show=index&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:19:20.983; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1381227560970} status=404 QTime=4 
+INFO  - 2013-10-08 03:19:20.989; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/ping params={action=status&_=1381227560971&wt=json} status=503 QTime=5 
+INFO  - 2013-10-08 03:19:20.990; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2013-10-08 03:19:20.997; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/replication params={command=details&_=1381227560968&wt=json} status=0 QTime=26 
+INFO  - 2013-10-08 03:19:21.001; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/system params={_=1381227560970&wt=json} status=0 QTime=28 
+INFO  - 2013-10-08 03:19:30.163; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1381227570160&wt=json} status=0 QTime=2 
+INFO  - 2013-10-08 03:19:37.238; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q=double+words&_=1381227577192&wt=json} hits=0 status=0 QTime=43 
+INFO  - 2013-10-08 03:19:40.108; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q=double+word&_=1381227580104&wt=json} hits=0 status=0 QTime=1 
+INFO  - 2013-10-08 03:19:45.705; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="double+word"&_=1381227585701&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2013-10-08 03:19:55.420; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="match+I+wonder"&_=1381227595405&wt=json} hits=1 status=0 QTime=12 
+INFO  - 2013-10-08 03:20:43.770; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q=single&_=1381227643766&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2013-10-08 03:20:49.074; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="double+words"&_=1381227649069&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2013-10-08 03:21:09.835; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="I+have+a+matching+a+I+wondering"&_=1381227669829&wt=json} hits=0 status=0 QTime=2 
+INFO  - 2013-10-08 03:21:13.840; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227673838&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:21:28.024; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227688022&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:21:28.057; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381227688033&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+match+i+wonder} status=0 QTime=22 
+INFO  - 2013-10-08 03:21:31.223; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227691221&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:21:31.259; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381227691240&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+match+i+wonder} status=0 QTime=16 
+INFO  - 2013-10-08 03:21:36.765; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1381227696761&wt=json} status=0 QTime=3 
+INFO  - 2013-10-08 03:21:36.780; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1381227696776&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:21:37.687; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1381227697684&since=0&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:21:39.199; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/threads params={_=1381227699181&wt=json} status=0 QTime=15 
+INFO  - 2013-10-08 03:21:40.350; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={numTerms=0&_=1381227700348&show=index&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:21:40.351; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/replication params={command=details&_=1381227700349&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:21:40.355; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1381227700351} status=404 QTime=0 
+INFO  - 2013-10-08 03:21:40.361; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/ping params={action=status&_=1381227700352&wt=json} status=503 QTime=1 
+INFO  - 2013-10-08 03:21:40.387; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/system params={_=1381227700350&wt=json} status=0 QTime=35 
+INFO  - 2013-10-08 03:21:48.140; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="match+I+wonder"&_=1381227708135&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2013-10-08 03:21:51.882; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="match+I+wondering"&_=1381227711878&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2013-10-08 03:21:56.291; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="why+match+I+wondering"&_=1381227716287&wt=json} hits=0 status=0 QTime=1 
+INFO  - 2013-10-08 03:22:01.717; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227721714&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:22:03.466; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227723464&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:22:03.482; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381227723476&analysis.fieldname=content&analysis.query="why+match+I+wondering"&wt=json} status=0 QTime=5 
+INFO  - 2013-10-08 03:22:06.353; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227726351&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:22:06.379; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381227726370&analysis.fieldname=content&analysis.query="why+match+I+wondering"&wt=json} status=0 QTime=6 
+INFO  - 2013-10-08 03:22:35.874; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="why+match+I+wondering"&_=1381227755869&wt=json} hits=0 status=0 QTime=1 
+INFO  - 2013-10-08 03:22:37.280; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={debugQuery=true&indent=true&q="why+match+I+wondering"&_=1381227757271&wt=json} hits=0 status=0 QTime=6 
+INFO  - 2013-10-08 03:22:45.464; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={mm=-1&debugQuery=true&indent=true&q="why+match+I+wondering"&_=1381227765453&wt=json&defType=dismax} hits=0 status=0 QTime=7 
+INFO  - 2013-10-08 03:23:18.444; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={mm=-1&debugQuery=true&indent=true&q="match+I+wondering"&_=1381227798437&wt=json&defType=dismax} hits=1 status=0 QTime=4 
+INFO  - 2013-10-08 03:23:28.857; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={mm=-1&debugQuery=true&indent=true&q="match+I+wondering+too"&_=1381227808852&wt=json&defType=dismax} hits=0 status=0 QTime=2 
+INFO  - 2013-10-08 03:23:39.594; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227819592&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:23:46.922; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227826919&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:23:46.938; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381227826931&analysis.fieldname=content&analysis.query=match+I+wondering+too&wt=json} status=0 QTime=6 
+INFO  - 2013-10-08 03:24:00.917; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q=match+I+wondering+too&_=1381227840912&wt=json} hits=0 status=0 QTime=2 
+INFO  - 2013-10-08 03:24:04.253; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q=match+I+wondering+toomatch+I+wondering+too&_=1381227844247&wt=json} hits=0 status=0 QTime=3 
+INFO  - 2013-10-08 03:24:08.690; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="match+I+wondering+too"&_=1381227848685&wt=json} hits=0 status=0 QTime=2 
+INFO  - 2013-10-08 03:25:13.711; org.apache.solr.update.processor.LogUpdateProcessor; [bestAnswer] webapp=/solr path=/update params={wt=json} {add=[1 (1448322440830648320)]} 0 46
+INFO  - 2013-10-08 03:25:14.710; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+INFO  - 2013-10-08 03:25:14.731; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@9dd1752 main
+INFO  - 2013-10-08 03:25:14.732; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2013-10-08 03:25:14.732; org.apache.solr.core.SolrCore; [bestAnswer] Registered new searcher Searcher@9dd1752 main{StandardDirectoryReader(segments_5:31:nrt _7(4.5):C1)}
+INFO  - 2013-10-08 03:25:20.930; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227920928&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:25:23.488; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227923485&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:25:23.513; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381227923497&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+matching+I+wonder} status=0 QTime=14 
+INFO  - 2013-10-08 03:26:20.503; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381227980501&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:26:20.536; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381227980518&analysis.fieldname=content&analysis.query="stuff+why+match+I"&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+matching+I+wonder} status=0 QTime=16 
+INFO  - 2013-10-08 03:26:35.677; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1381227995674&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:26:35.717; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1381227995697&wt=json} status=0 QTime=18 
+INFO  - 2013-10-08 03:26:39.181; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1381227999178&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+INFO  - 2013-10-08 03:26:39.182; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1381227999179&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+INFO  - 2013-10-08 03:26:39.194; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={numTerms=0&_=1381227999192&show=index&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:26:39.197; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/replication params={command=details&_=1381227999194&wt=json} status=0 QTime=2 
+INFO  - 2013-10-08 03:26:39.202; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1381227999196} status=404 QTime=1 
+INFO  - 2013-10-08 03:26:39.202; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/ping params={action=status&_=1381227999197&wt=json} status=503 QTime=0 
+INFO  - 2013-10-08 03:26:39.220; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/system params={_=1381227999195&wt=json} status=0 QTime=24 
+INFO  - 2013-10-08 03:26:47.813; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="stuff+why+match+I"&_=1381228007807&wt=json} hits=0 status=0 QTime=3 
+INFO  - 2013-10-08 03:26:55.616; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={indent=true&q="stuff+why+match"&_=1381228015613&wt=json} hits=0 status=0 QTime=1 
+INFO  - 2013-10-08 03:26:58.183; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/select params={debugQuery=true&indent=true&q="stuff+why+match"&_=1381228018179&wt=json} hits=0 status=0 QTime=1 
+INFO  - 2013-10-08 03:28:53.087; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228133085&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:28:53.117; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228133104&analysis.fieldname=content&analysis.query=bunch+_+stuff+whi+_&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+matching+I+wonder} status=0 QTime=11 
+INFO  - 2013-10-08 03:31:36.860; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:31:36.861; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 03:31:37.862; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=10202458
+INFO  - 2013-10-08 03:31:37.863; org.apache.solr.core.SolrCore; [UIMAtester]  CLOSING SolrCore org.apache.solr.core.SolrCore@30c26c8f
+INFO  - 2013-10-08 03:31:37.863; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:31:37.864; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:31:37.864; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:31:37.864; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:31:37.866; org.apache.solr.core.SolrCore; [UIMAtester] Closing main searcher on request.
+INFO  - 2013-10-08 03:31:37.866; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:31:37.867; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index;done=false>>]
+INFO  - 2013-10-08 03:31:37.867; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:31:37.868; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data;done=false>>]
+INFO  - 2013-10-08 03:31:37.868; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:31:37.868; org.apache.solr.core.SolrCore; [productQuery]  CLOSING SolrCore org.apache.solr.core.SolrCore@3d057305
+INFO  - 2013-10-08 03:31:37.869; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:31:37.869; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:31:37.869; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:31:37.869; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:31:37.870; org.apache.solr.core.SolrCore; [productQuery] Closing main searcher on request.
+INFO  - 2013-10-08 03:31:37.871; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:31:37.871; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index;done=false>>]
+INFO  - 2013-10-08 03:31:37.871; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:31:37.871; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data;done=false>>]
+INFO  - 2013-10-08 03:31:37.872; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:31:37.872; org.apache.solr.core.SolrCore; [bestAnswer]  CLOSING SolrCore org.apache.solr.core.SolrCore@5a749436
+INFO  - 2013-10-08 03:31:37.872; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=2,autocommits=0,soft autocommits=1,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=1,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=1,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:31:37.873; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:31:37.873; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:31:37.874; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:31:37.911; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index,segFN=segments_5,generation=5}
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index,segFN=segments_6,generation=6}
+INFO  - 2013-10-08 03:31:37.911; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 6
+INFO  - 2013-10-08 03:31:37.914; org.apache.solr.core.SolrCore; [bestAnswer] Closing main searcher on request.
+INFO  - 2013-10-08 03:31:37.915; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:31:37.915; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data;done=false>>]
+INFO  - 2013-10-08 03:31:37.915; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:31:37.915; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index;done=false>>]
+INFO  - 2013-10-08 03:31:37.916; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:31:37.918; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 03:31:40.083; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-10-08 03:31:40.099; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/bjo/workspace/solr-4.5.0/example/contexts at interval 0
+INFO  - 2013-10-08 03:31:40.107; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/bjo/workspace/solr-4.5.0/example/contexts/solr-jetty-context.xml
+INFO  - 2013-10-08 03:31:40.914; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-10-08 03:31:40.939; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-10-08 03:31:40.955; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-10-08 03:31:40.956; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: multicore
+INFO  - 2013-10-08 03:31:40.956; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/'
+INFO  - 2013-10-08 03:31:41.034; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/bjo/workspace/solr-4.5.0/example/multicore/solr.xml
+INFO  - 2013-10-08 03:31:41.102; org.apache.solr.core.CoreContainer; New CoreContainer 815786062
+INFO  - 2013-10-08 03:31:41.102; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=multicore/]
+INFO  - 2013-10-08 03:31:41.110; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-10-08 03:31:41.110; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-10-08 03:31:41.110; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-10-08 03:31:41.110; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-10-08 03:31:41.110; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-10-08 03:31:41.112; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-10-08 03:31:41.112; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-10-08 03:31:41.112; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-10-08 03:31:41.112; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-10-08 03:31:41.116; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-10-08 03:31:41.256; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-10-08 03:31:41.257; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-10-08 03:31:41.299; org.apache.solr.core.CoreContainer; Creating SolrCore 'bestAnswer' using instanceDir: multicore/bestAnswer
+INFO  - 2013-10-08 03:31:41.299; org.apache.solr.core.CoreContainer; Creating SolrCore 'UIMAtester' using instanceDir: multicore/UIMAtester
+INFO  - 2013-10-08 03:31:41.299; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/UIMAtester/'
+INFO  - 2013-10-08 03:31:41.299; org.apache.solr.core.CoreContainer; Creating SolrCore 'productQuery' using instanceDir: multicore/productQuery
+INFO  - 2013-10-08 03:31:41.300; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/productQuery/'
+INFO  - 2013-10-08 03:31:41.299; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/bestAnswer/'
+INFO  - 2013-10-08 03:31:41.350; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:31:41.354; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:31:41.394; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:31:41.454; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:31:41.455; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:31:41.459; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:31:41.464; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:31:41.465; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:31:41.468; org.apache.solr.schema.IndexSchema; [bestAnswer] Schema name=solr_bestAnswer
+INFO  - 2013-10-08 03:31:41.470; org.apache.solr.schema.IndexSchema; [UIMAtester] Schema name=example core one
+INFO  - 2013-10-08 03:31:41.471; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:31:41.478; org.apache.solr.schema.IndexSchema; [productQuery] Schema name=productQuery
+INFO  - 2013-10-08 03:31:41.510; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:31:41.511; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:31:41.512; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:31:41.525; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:31:41.526; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:31:41.528; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:31:41.541; org.apache.solr.schema.IndexSchema; default search field in schema is content
+INFO  - 2013-10-08 03:31:41.542; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:31:41.542; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:31:41.547; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:31:41.547; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:31:41.558; org.apache.solr.core.SolrCore; [productQuery] Opening new SolrCore at multicore/productQuery/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/
+INFO  - 2013-10-08 03:31:41.559; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: productQuery
+INFO  - 2013-10-08 03:31:41.558; org.apache.solr.core.SolrCore; [UIMAtester] Opening new SolrCore at multicore/UIMAtester/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/
+INFO  - 2013-10-08 03:31:41.559; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: UIMAtester
+INFO  - 2013-10-08 03:31:41.574; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:31:41.574; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index/
+INFO  - 2013-10-08 03:31:41.574; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:31:41.574; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:31:41.575; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index/
+INFO  - 2013-10-08 03:31:41.577; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:31:41.628; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:31:41.629; org.apache.solr.core.SolrCore; [bestAnswer] Opening new SolrCore at multicore/bestAnswer/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/
+INFO  - 2013-10-08 03:31:41.629; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: bestAnswer
+INFO  - 2013-10-08 03:31:41.629; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:31:41.629; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index/
+INFO  - 2013-10-08 03:31:41.630; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:31:41.653; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:31:41.653; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:31:41.653; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:31:41.660; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:31:41.660; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:31:41.661; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:31:41.661; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:31:41.661; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:31:41.661; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:31:41.661; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:31:41.662; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:31:41.662; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:31:41.663; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:31:41.663; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:31:41.664; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:31:41.664; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:31:41.664; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:31:41.667; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:31:41.664; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:31:41.667; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:31:41.668; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:31:41.667; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:31:41.669; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:31:41.669; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:31:41.669; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:31:41.669; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:31:41.670; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:31:41.673; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:31:41.673; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:31:41.674; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:31:41.693; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:31:41.693; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:31:41.693; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:31:41.711; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:31:41.711; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:31:41.711; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:31:41.712; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:31:41.724; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:31:41.725; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:31:41.750; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index,segFN=segments_6,generation=6}
+INFO  - 2013-10-08 03:31:41.750; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:31:41.750; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:31:41.750; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:31:41.750; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 6
+INFO  - 2013-10-08 03:31:41.750; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:31:41.760; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4b8706f6 main
+INFO  - 2013-10-08 03:31:41.761; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@6d4492fb main
+INFO  - 2013-10-08 03:31:41.779; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@73b044df main
+INFO  - 2013-10-08 03:31:41.787; org.apache.solr.core.SolrCore; [productQuery] Registered new searcher Searcher@4b8706f6 main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:31:41.787; org.apache.solr.core.SolrCore; [UIMAtester] Registered new searcher Searcher@6d4492fb main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:31:41.787; org.apache.solr.core.CoreContainer; registering core: productQuery
+INFO  - 2013-10-08 03:31:41.787; org.apache.solr.core.CoreContainer; registering core: bestAnswer
+INFO  - 2013-10-08 03:31:41.788; org.apache.solr.core.SolrCore; [bestAnswer] Registered new searcher Searcher@73b044df main{StandardDirectoryReader(segments_6:31:nrt _7(4.5):C1)}
+INFO  - 2013-10-08 03:31:41.788; org.apache.solr.core.CoreContainer; registering core: UIMAtester
+INFO  - 2013-10-08 03:31:41.794; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/bjo/workspace/solr-4.5.0/example
+INFO  - 2013-10-08 03:31:41.794; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-10-08 03:31:41.819; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:31:45.552; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228305528&show=schema&wt=json} status=0 QTime=13 
+INFO  - 2013-10-08 03:31:45.604; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228305565&analysis.fieldname=content&analysis.query=bunch++stuff+whi+_&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+matching+I+wonder} status=0 QTime=38 
+INFO  - 2013-10-08 03:31:49.654; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={numTerms=0&_=1381228309651&show=index&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:31:49.663; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/ping params={action=status&_=1381228309655&wt=json} status=503 QTime=6 
+INFO  - 2013-10-08 03:31:49.667; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2013-10-08 03:31:49.667; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1381228309654} status=404 QTime=1 
+INFO  - 2013-10-08 03:31:49.679; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/replication params={command=details&_=1381228309653&wt=json} status=0 QTime=24 
+INFO  - 2013-10-08 03:31:49.695; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/system params={_=1381228309654&wt=json} status=0 QTime=36 
+INFO  - 2013-10-08 03:31:50.134; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228310132&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:31:55.612; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228315610&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:31:55.628; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228315621&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff} status=0 QTime=6 
+INFO  - 2013-10-08 03:31:57.277; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228317275&show=schema&wt=json} status=0 QTime=0 
+INFO  - 2013-10-08 03:31:57.319; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228317310&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff} status=0 QTime=6 
+INFO  - 2013-10-08 03:31:59.262; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228319260&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:31:59.280; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228319274&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff} status=0 QTime=5 
+INFO  - 2013-10-08 03:33:54.576; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:33:54.577; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 03:33:55.577; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=815786062
+INFO  - 2013-10-08 03:33:55.578; org.apache.solr.core.SolrCore; [productQuery]  CLOSING SolrCore org.apache.solr.core.SolrCore@62577c5e
+INFO  - 2013-10-08 03:33:55.579; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:33:55.579; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:33:55.579; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:33:55.580; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:33:55.582; org.apache.solr.core.SolrCore; [productQuery] Closing main searcher on request.
+INFO  - 2013-10-08 03:33:55.583; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:33:55.584; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index;done=false>>]
+INFO  - 2013-10-08 03:33:55.584; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:33:55.584; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data;done=false>>]
+INFO  - 2013-10-08 03:33:55.584; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:33:55.585; org.apache.solr.core.SolrCore; [bestAnswer]  CLOSING SolrCore org.apache.solr.core.SolrCore@5da631c2
+INFO  - 2013-10-08 03:33:55.585; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:33:55.585; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:33:55.586; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:33:55.586; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:33:55.587; org.apache.solr.core.SolrCore; [bestAnswer] Closing main searcher on request.
+INFO  - 2013-10-08 03:33:55.589; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:33:55.589; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data;done=false>>]
+INFO  - 2013-10-08 03:33:55.589; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:33:55.590; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index;done=false>>]
+INFO  - 2013-10-08 03:33:55.590; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:33:55.590; org.apache.solr.core.SolrCore; [UIMAtester]  CLOSING SolrCore org.apache.solr.core.SolrCore@15384ed5
+INFO  - 2013-10-08 03:33:55.590; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:33:55.591; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:33:55.591; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:33:55.591; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:33:55.592; org.apache.solr.core.SolrCore; [UIMAtester] Closing main searcher on request.
+INFO  - 2013-10-08 03:33:55.593; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:33:55.593; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index;done=false>>]
+INFO  - 2013-10-08 03:33:55.593; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:33:55.593; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data;done=false>>]
+INFO  - 2013-10-08 03:33:55.594; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:33:55.595; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 03:33:58.402; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-10-08 03:33:58.420; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/bjo/workspace/solr-4.5.0/example/contexts at interval 0
+INFO  - 2013-10-08 03:33:58.427; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/bjo/workspace/solr-4.5.0/example/contexts/solr-jetty-context.xml
+INFO  - 2013-10-08 03:33:59.234; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-10-08 03:33:59.259; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-10-08 03:33:59.275; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-10-08 03:33:59.276; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: multicore
+INFO  - 2013-10-08 03:33:59.276; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/'
+INFO  - 2013-10-08 03:33:59.355; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/bjo/workspace/solr-4.5.0/example/multicore/solr.xml
+INFO  - 2013-10-08 03:33:59.424; org.apache.solr.core.CoreContainer; New CoreContainer 1789767313
+INFO  - 2013-10-08 03:33:59.424; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=multicore/]
+INFO  - 2013-10-08 03:33:59.432; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-10-08 03:33:59.432; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-10-08 03:33:59.432; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-10-08 03:33:59.432; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-10-08 03:33:59.432; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-10-08 03:33:59.434; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-10-08 03:33:59.434; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-10-08 03:33:59.434; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-10-08 03:33:59.434; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-10-08 03:33:59.439; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-10-08 03:33:59.578; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-10-08 03:33:59.579; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-10-08 03:33:59.621; org.apache.solr.core.CoreContainer; Creating SolrCore 'bestAnswer' using instanceDir: multicore/bestAnswer
+INFO  - 2013-10-08 03:33:59.621; org.apache.solr.core.CoreContainer; Creating SolrCore 'UIMAtester' using instanceDir: multicore/UIMAtester
+INFO  - 2013-10-08 03:33:59.621; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/UIMAtester/'
+INFO  - 2013-10-08 03:33:59.621; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/bestAnswer/'
+INFO  - 2013-10-08 03:33:59.621; org.apache.solr.core.CoreContainer; Creating SolrCore 'productQuery' using instanceDir: multicore/productQuery
+INFO  - 2013-10-08 03:33:59.622; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/productQuery/'
+INFO  - 2013-10-08 03:33:59.671; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:33:59.674; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:33:59.680; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:33:59.756; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:33:59.757; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:33:59.762; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:33:59.767; org.apache.solr.schema.IndexSchema; [UIMAtester] Schema name=example core one
+INFO  - 2013-10-08 03:33:59.770; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:33:59.775; org.apache.solr.schema.IndexSchema; [productQuery] Schema name=productQuery
+INFO  - 2013-10-08 03:33:59.779; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:33:59.780; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:33:59.805; org.apache.solr.schema.IndexSchema; [bestAnswer] Schema name=solr_bestAnswer
+INFO  - 2013-10-08 03:33:59.814; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:33:59.815; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:33:59.827; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:33:59.838; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:33:59.840; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:33:59.842; org.apache.solr.schema.IndexSchema; default search field in schema is content
+INFO  - 2013-10-08 03:33:59.843; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:33:59.844; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:33:59.845; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:33:59.861; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:33:59.864; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:33:59.870; org.apache.solr.core.SolrCore; [productQuery] Opening new SolrCore at multicore/productQuery/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/
+INFO  - 2013-10-08 03:33:59.871; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: productQuery
+INFO  - 2013-10-08 03:33:59.870; org.apache.solr.core.SolrCore; [UIMAtester] Opening new SolrCore at multicore/UIMAtester/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/
+INFO  - 2013-10-08 03:33:59.871; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: UIMAtester
+INFO  - 2013-10-08 03:33:59.883; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:33:59.883; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index/
+INFO  - 2013-10-08 03:33:59.884; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:33:59.885; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:33:59.887; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index/
+INFO  - 2013-10-08 03:33:59.887; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:33:59.951; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:33:59.952; org.apache.solr.core.SolrCore; [bestAnswer] Opening new SolrCore at multicore/bestAnswer/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/
+INFO  - 2013-10-08 03:33:59.952; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: bestAnswer
+INFO  - 2013-10-08 03:33:59.952; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:33:59.953; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index/
+INFO  - 2013-10-08 03:33:59.953; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:33:59.970; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:33:59.970; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:33:59.970; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:33:59.977; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:33:59.977; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:33:59.977; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:33:59.978; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:33:59.977; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:33:59.977; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:33:59.978; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:33:59.978; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:33:59.978; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:33:59.981; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:33:59.981; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:33:59.982; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:33:59.983; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:33:59.983; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:33:59.983; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:33:59.983; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:33:59.984; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:33:59.984; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:33:59.985; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:33:59.986; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:33:59.987; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:33:59.987; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:33:59.989; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:33:59.989; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:33:59.989; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:33:59.989; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:33:59.990; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:34:00.004; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:34:00.004; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:34:00.004; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:34:00.022; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:34:00.022; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:34:00.023; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:34:00.025; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:34:00.031; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:34:00.031; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:34:00.062; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:34:00.062; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index,segFN=segments_6,generation=6}
+INFO  - 2013-10-08 03:34:00.063; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:34:00.062; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:34:00.063; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 6
+INFO  - 2013-10-08 03:34:00.063; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:34:00.072; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@1a8fa0d1 main
+INFO  - 2013-10-08 03:34:00.072; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4b8706f6 main
+INFO  - 2013-10-08 03:34:00.099; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@38666d83 main
+INFO  - 2013-10-08 03:34:00.101; org.apache.solr.core.SolrCore; [productQuery] Registered new searcher Searcher@4b8706f6 main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:34:00.102; org.apache.solr.core.SolrCore; [bestAnswer] Registered new searcher Searcher@38666d83 main{StandardDirectoryReader(segments_6:31:nrt _7(4.5):C1)}
+INFO  - 2013-10-08 03:34:00.101; org.apache.solr.core.SolrCore; [UIMAtester] Registered new searcher Searcher@1a8fa0d1 main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:34:00.102; org.apache.solr.core.CoreContainer; registering core: bestAnswer
+INFO  - 2013-10-08 03:34:00.102; org.apache.solr.core.CoreContainer; registering core: UIMAtester
+INFO  - 2013-10-08 03:34:00.102; org.apache.solr.core.CoreContainer; registering core: productQuery
+INFO  - 2013-10-08 03:34:00.104; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/bjo/workspace/solr-4.5.0/example
+INFO  - 2013-10-08 03:34:00.104; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-10-08 03:34:00.134; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:34:07.186; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228447159&show=schema&wt=json} status=0 QTime=14 
+ERROR - 2013-10-08 03:34:07.219; org.apache.solr.common.SolrException; java.lang.IllegalArgumentException: enablePositionIncrements=false is not supported anymore as of Lucene 4.4 as it can create broken token streams
+	at org.apache.lucene.analysis.util.FilteringTokenFilter.checkPositionIncrement(FilteringTokenFilter.java:40)
+	at org.apache.lucene.analysis.util.FilteringTokenFilter.setEnablePositionIncrements(FilteringTokenFilter.java:142)
+	at org.apache.lucene.analysis.core.StopFilterFactory.create(StopFilterFactory.java:88)
+	at org.apache.solr.handler.AnalysisRequestHandlerBase.analyzeValue(AnalysisRequestHandlerBase.java:125)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.analyzeValues(FieldAnalysisRequestHandler.java:221)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.handleAnalysisRequest(FieldAnalysisRequestHandler.java:190)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.doAnalysis(FieldAnalysisRequestHandler.java:101)
+	at org.apache.solr.handler.AnalysisRequestHandlerBase.handleRequestBody(AnalysisRequestHandlerBase.java:59)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.RequestHandlers$LazyRequestHandlerWrapper.handleRequest(RequestHandlers.java:241)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1859)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:703)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:406)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:195)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:679)
+
+INFO  - 2013-10-08 03:34:07.220; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228447203&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff} status=500 QTime=15 
+ERROR - 2013-10-08 03:34:07.221; org.apache.solr.common.SolrException; null:java.lang.IllegalArgumentException: enablePositionIncrements=false is not supported anymore as of Lucene 4.4 as it can create broken token streams
+	at org.apache.lucene.analysis.util.FilteringTokenFilter.checkPositionIncrement(FilteringTokenFilter.java:40)
+	at org.apache.lucene.analysis.util.FilteringTokenFilter.setEnablePositionIncrements(FilteringTokenFilter.java:142)
+	at org.apache.lucene.analysis.core.StopFilterFactory.create(StopFilterFactory.java:88)
+	at org.apache.solr.handler.AnalysisRequestHandlerBase.analyzeValue(AnalysisRequestHandlerBase.java:125)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.analyzeValues(FieldAnalysisRequestHandler.java:221)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.handleAnalysisRequest(FieldAnalysisRequestHandler.java:190)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.doAnalysis(FieldAnalysisRequestHandler.java:101)
+	at org.apache.solr.handler.AnalysisRequestHandlerBase.handleRequestBody(AnalysisRequestHandlerBase.java:59)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.RequestHandlers$LazyRequestHandlerWrapper.handleRequest(RequestHandlers.java:241)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1859)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:703)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:406)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:195)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:679)
+
+INFO  - 2013-10-08 03:34:58.979; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:34:58.980; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 03:34:59.981; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1789767313
+INFO  - 2013-10-08 03:34:59.981; org.apache.solr.core.SolrCore; [productQuery]  CLOSING SolrCore org.apache.solr.core.SolrCore@62577c5e
+INFO  - 2013-10-08 03:34:59.982; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:34:59.983; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:34:59.983; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:34:59.983; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:34:59.985; org.apache.solr.core.SolrCore; [productQuery] Closing main searcher on request.
+INFO  - 2013-10-08 03:34:59.986; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:34:59.987; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data;done=false>>]
+INFO  - 2013-10-08 03:34:59.987; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:34:59.987; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index;done=false>>]
+INFO  - 2013-10-08 03:34:59.987; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:34:59.988; org.apache.solr.core.SolrCore; [UIMAtester]  CLOSING SolrCore org.apache.solr.core.SolrCore@114562c5
+INFO  - 2013-10-08 03:34:59.988; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:34:59.988; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:34:59.989; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:34:59.989; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:34:59.990; org.apache.solr.core.SolrCore; [UIMAtester] Closing main searcher on request.
+INFO  - 2013-10-08 03:34:59.990; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:34:59.991; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data;done=false>>]
+INFO  - 2013-10-08 03:34:59.991; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:34:59.991; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index;done=false>>]
+INFO  - 2013-10-08 03:34:59.991; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:34:59.992; org.apache.solr.core.SolrCore; [bestAnswer]  CLOSING SolrCore org.apache.solr.core.SolrCore@4b94ba17
+INFO  - 2013-10-08 03:34:59.992; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:34:59.992; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:34:59.993; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:34:59.993; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:34:59.993; org.apache.solr.core.SolrCore; [bestAnswer] Closing main searcher on request.
+INFO  - 2013-10-08 03:34:59.995; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:34:59.995; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index;done=false>>]
+INFO  - 2013-10-08 03:34:59.995; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:34:59.996; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data;done=false>>]
+INFO  - 2013-10-08 03:34:59.996; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:34:59.998; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 03:36:37.394; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-10-08 03:36:37.409; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/bjo/workspace/solr-4.5.0/example/contexts at interval 0
+INFO  - 2013-10-08 03:36:37.413; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/bjo/workspace/solr-4.5.0/example/contexts/solr-jetty-context.xml
+INFO  - 2013-10-08 03:36:38.214; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-10-08 03:36:38.239; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-10-08 03:36:38.257; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-10-08 03:36:38.257; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: multicore
+INFO  - 2013-10-08 03:36:38.257; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/'
+INFO  - 2013-10-08 03:36:38.335; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/bjo/workspace/solr-4.5.0/example/multicore/solr.xml
+INFO  - 2013-10-08 03:36:38.402; org.apache.solr.core.CoreContainer; New CoreContainer 780553795
+INFO  - 2013-10-08 03:36:38.402; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=multicore/]
+INFO  - 2013-10-08 03:36:38.409; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-10-08 03:36:38.409; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-10-08 03:36:38.409; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-10-08 03:36:38.410; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-10-08 03:36:38.410; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-10-08 03:36:38.411; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-10-08 03:36:38.411; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-10-08 03:36:38.411; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-10-08 03:36:38.411; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-10-08 03:36:38.416; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-10-08 03:36:38.553; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-10-08 03:36:38.554; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-10-08 03:36:38.595; org.apache.solr.core.CoreContainer; Creating SolrCore 'bestAnswer' using instanceDir: multicore/bestAnswer
+INFO  - 2013-10-08 03:36:38.596; org.apache.solr.core.CoreContainer; Creating SolrCore 'UIMAtester' using instanceDir: multicore/UIMAtester
+INFO  - 2013-10-08 03:36:38.596; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/UIMAtester/'
+INFO  - 2013-10-08 03:36:38.596; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/bestAnswer/'
+INFO  - 2013-10-08 03:36:38.595; org.apache.solr.core.CoreContainer; Creating SolrCore 'productQuery' using instanceDir: multicore/productQuery
+INFO  - 2013-10-08 03:36:38.596; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/productQuery/'
+INFO  - 2013-10-08 03:36:38.645; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:36:38.648; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:36:38.651; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:36:38.736; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:36:38.744; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:36:38.749; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:36:38.749; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:36:38.754; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:36:38.757; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:36:38.759; org.apache.solr.schema.IndexSchema; [bestAnswer] Schema name=solr_bestAnswer
+INFO  - 2013-10-08 03:36:38.754; org.apache.solr.schema.IndexSchema; [productQuery] Schema name=productQuery
+INFO  - 2013-10-08 03:36:38.762; org.apache.solr.schema.IndexSchema; [UIMAtester] Schema name=example core one
+INFO  - 2013-10-08 03:36:38.800; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:36:38.801; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:36:38.801; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:36:38.803; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:36:38.814; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:36:38.815; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:36:38.824; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:36:38.824; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:36:38.837; org.apache.solr.core.SolrCore; [productQuery] Opening new SolrCore at multicore/productQuery/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/
+INFO  - 2013-10-08 03:36:38.837; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: productQuery
+INFO  - 2013-10-08 03:36:38.841; org.apache.solr.core.SolrCore; [UIMAtester] Opening new SolrCore at multicore/UIMAtester/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/
+INFO  - 2013-10-08 03:36:38.841; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: UIMAtester
+INFO  - 2013-10-08 03:36:38.850; org.apache.solr.schema.IndexSchema; default search field in schema is content
+INFO  - 2013-10-08 03:36:38.851; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:36:38.852; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:36:38.852; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:36:38.852; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index/
+INFO  - 2013-10-08 03:36:38.852; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:36:38.854; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index/
+INFO  - 2013-10-08 03:36:38.854; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:36:38.853; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:36:38.953; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:36:38.953; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:36:38.969; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:36:38.969; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:36:38.969; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:36:38.969; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:36:38.970; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:36:38.970; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:36:38.971; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:36:38.971; org.apache.solr.core.SolrCore; [bestAnswer] Opening new SolrCore at multicore/bestAnswer/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/
+INFO  - 2013-10-08 03:36:38.972; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: bestAnswer
+INFO  - 2013-10-08 03:36:38.972; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:36:38.972; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index/
+INFO  - 2013-10-08 03:36:38.973; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:36:38.974; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:36:38.974; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:36:38.974; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:36:38.975; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:36:38.975; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:36:38.975; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:36:38.974; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:36:38.976; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:36:38.976; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:36:38.974; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:36:38.976; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:36:38.976; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:36:38.977; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:36:38.982; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:36:38.982; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:36:38.982; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:36:38.983; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:36:38.983; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:36:38.983; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:36:38.987; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:36:38.988; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:36:38.989; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:36:39.007; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:36:39.007; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:36:39.007; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:36:39.029; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:36:39.030; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:36:39.030; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:36:39.033; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:36:39.041; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:36:39.041; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:36:39.063; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index,segFN=segments_6,generation=6}
+INFO  - 2013-10-08 03:36:39.063; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:36:39.063; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:36:39.064; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:36:39.064; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:36:39.064; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 6
+INFO  - 2013-10-08 03:36:39.072; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@11f18cbe main
+INFO  - 2013-10-08 03:36:39.072; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@94f1726 main
+INFO  - 2013-10-08 03:36:39.094; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@dfeaf06 main
+INFO  - 2013-10-08 03:36:39.097; org.apache.solr.core.SolrCore; [UIMAtester] Registered new searcher Searcher@94f1726 main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:36:39.097; org.apache.solr.core.CoreContainer; registering core: productQuery
+INFO  - 2013-10-08 03:36:39.097; org.apache.solr.core.SolrCore; [productQuery] Registered new searcher Searcher@11f18cbe main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:36:39.097; org.apache.solr.core.CoreContainer; registering core: UIMAtester
+INFO  - 2013-10-08 03:36:39.097; org.apache.solr.core.CoreContainer; registering core: bestAnswer
+INFO  - 2013-10-08 03:36:39.097; org.apache.solr.core.SolrCore; [bestAnswer] Registered new searcher Searcher@dfeaf06 main{StandardDirectoryReader(segments_6:31:nrt _7(4.5):C1)}
+INFO  - 2013-10-08 03:36:39.099; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/bjo/workspace/solr-4.5.0/example
+INFO  - 2013-10-08 03:36:39.100; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-10-08 03:36:39.127; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:36:44.601; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228604583&show=schema&wt=json} status=0 QTime=7 
+INFO  - 2013-10-08 03:36:56.903; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228616900&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:36:56.944; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228616913&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+matching} status=0 QTime=29 
+INFO  - 2013-10-08 03:36:58.554; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228618552&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:36:58.587; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228618570&analysis.fieldname=content&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+matching} status=0 QTime=13 
+INFO  - 2013-10-08 03:37:05.308; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228625305&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:37:05.338; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228625321&analysis.fieldname=content&analysis.query=whi+_+match&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+matching} status=0 QTime=15 
+INFO  - 2013-10-08 03:37:13.581; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228633579&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:37:13.612; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228633598&analysis.fieldname=content&analysis.query=whi+not+match&wt=json&analysis.fieldvalue=bunch+of+stuff+why+not+matching} status=0 QTime=12 
+INFO  - 2013-10-08 03:37:34.796; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228654794&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:37:34.828; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228654812&analysis.fieldname=content&analysis.query=whi+not+match&wt=json&analysis.fieldvalue=beneficiary+roth+ira+for+minors} status=0 QTime=14 
+INFO  - 2013-10-08 03:37:45.914; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228665912&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:37:45.948; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228665929&analysis.fieldname=content&analysis.query=beneficiary+roth+ira&wt=json&analysis.fieldvalue=beneficiary+roth+ira+for+minors} status=0 QTime=18 
+INFO  - 2013-10-08 03:37:58.553; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228678551&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:37:58.579; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228678567&analysis.fieldname=content&analysis.query=ira+for+kids&wt=json&analysis.fieldvalue=beneficiary+roth+ira+for+minors} status=0 QTime=10 
+INFO  - 2013-10-08 03:38:47.289; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228727287&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:38:47.318; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228727305&analysis.fieldname=content&analysis.query=ira+for+minor&wt=json&analysis.fieldvalue=beneficiary+roth+ira+for+minors} status=0 QTime=11 
+INFO  - 2013-10-08 03:38:54.333; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228734331&show=schema&wt=json} status=0 QTime=1 
+INFO  - 2013-10-08 03:38:54.358; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228734349&analysis.fieldname=content&analysis.query=ira+for+children&wt=json&analysis.fieldvalue=beneficiary+roth+ira+for+minors} status=0 QTime=8 
+INFO  - 2013-10-08 03:38:56.625; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:38:56.626; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 03:38:57.627; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=780553795
+INFO  - 2013-10-08 03:38:57.627; org.apache.solr.core.SolrCore; [productQuery]  CLOSING SolrCore org.apache.solr.core.SolrCore@5a749436
+INFO  - 2013-10-08 03:38:57.628; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:38:57.628; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:38:57.629; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:38:57.629; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:38:57.631; org.apache.solr.core.SolrCore; [productQuery] Closing main searcher on request.
+INFO  - 2013-10-08 03:38:57.632; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:38:57.632; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data;done=false>>]
+INFO  - 2013-10-08 03:38:57.633; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:38:57.633; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index;done=false>>]
+INFO  - 2013-10-08 03:38:57.633; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:38:57.634; org.apache.solr.core.SolrCore; [bestAnswer]  CLOSING SolrCore org.apache.solr.core.SolrCore@775925c0
+INFO  - 2013-10-08 03:38:57.634; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:38:57.634; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:38:57.635; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:38:57.635; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:38:57.636; org.apache.solr.core.SolrCore; [bestAnswer] Closing main searcher on request.
+INFO  - 2013-10-08 03:38:57.637; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:38:57.638; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index;done=false>>]
+INFO  - 2013-10-08 03:38:57.638; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:38:57.638; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data;done=false>>]
+INFO  - 2013-10-08 03:38:57.638; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:38:57.639; org.apache.solr.core.SolrCore; [UIMAtester]  CLOSING SolrCore org.apache.solr.core.SolrCore@625db9eb
+INFO  - 2013-10-08 03:38:57.639; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 03:38:57.639; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 03:38:57.640; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 03:38:57.640; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 03:38:57.641; org.apache.solr.core.SolrCore; [UIMAtester] Closing main searcher on request.
+INFO  - 2013-10-08 03:38:57.641; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 03:38:57.641; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index;done=false>>]
+INFO  - 2013-10-08 03:38:57.642; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:38:57.642; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data;done=false>>]
+INFO  - 2013-10-08 03:38:57.642; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:38:57.644; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 03:38:58.907; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-10-08 03:38:58.924; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/bjo/workspace/solr-4.5.0/example/contexts at interval 0
+INFO  - 2013-10-08 03:38:58.928; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/bjo/workspace/solr-4.5.0/example/contexts/solr-jetty-context.xml
+INFO  - 2013-10-08 03:38:59.731; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-10-08 03:38:59.756; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-10-08 03:38:59.780; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-10-08 03:38:59.780; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: multicore
+INFO  - 2013-10-08 03:38:59.781; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/'
+INFO  - 2013-10-08 03:38:59.860; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/bjo/workspace/solr-4.5.0/example/multicore/solr.xml
+INFO  - 2013-10-08 03:38:59.928; org.apache.solr.core.CoreContainer; New CoreContainer 1211763377
+INFO  - 2013-10-08 03:38:59.928; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=multicore/]
+INFO  - 2013-10-08 03:38:59.935; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-10-08 03:38:59.935; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-10-08 03:38:59.935; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-10-08 03:38:59.935; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-10-08 03:38:59.936; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-10-08 03:38:59.937; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-10-08 03:38:59.937; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-10-08 03:38:59.937; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-10-08 03:38:59.937; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-10-08 03:38:59.942; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-10-08 03:39:00.079; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-10-08 03:39:00.080; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-10-08 03:39:00.121; org.apache.solr.core.CoreContainer; Creating SolrCore 'bestAnswer' using instanceDir: multicore/bestAnswer
+INFO  - 2013-10-08 03:39:00.121; org.apache.solr.core.CoreContainer; Creating SolrCore 'UIMAtester' using instanceDir: multicore/UIMAtester
+INFO  - 2013-10-08 03:39:00.122; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/UIMAtester/'
+INFO  - 2013-10-08 03:39:00.121; org.apache.solr.core.CoreContainer; Creating SolrCore 'productQuery' using instanceDir: multicore/productQuery
+INFO  - 2013-10-08 03:39:00.122; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/productQuery/'
+INFO  - 2013-10-08 03:39:00.122; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'multicore/bestAnswer/'
+INFO  - 2013-10-08 03:39:00.173; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:39:00.174; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:39:00.180; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_45
+INFO  - 2013-10-08 03:39:00.255; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:39:00.261; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:39:00.264; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:39:00.264; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:39:00.265; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-10-08 03:39:00.268; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-10-08 03:39:00.270; org.apache.solr.schema.IndexSchema; [productQuery] Schema name=productQuery
+INFO  - 2013-10-08 03:39:00.276; org.apache.solr.schema.IndexSchema; [bestAnswer] Schema name=solr_bestAnswer
+INFO  - 2013-10-08 03:39:00.274; org.apache.solr.schema.IndexSchema; [UIMAtester] Schema name=example core one
+INFO  - 2013-10-08 03:39:00.316; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:39:00.317; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:39:00.318; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:39:00.323; org.apache.solr.schema.IndexSchema; default search field in schema is name
+INFO  - 2013-10-08 03:39:00.324; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:39:00.325; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:39:00.333; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:39:00.333; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:39:00.340; org.apache.solr.core.SolrCore; [UIMAtester] Opening new SolrCore at multicore/UIMAtester/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/
+INFO  - 2013-10-08 03:39:00.341; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: UIMAtester
+INFO  - 2013-10-08 03:39:00.341; org.apache.solr.core.SolrCore; [productQuery] Opening new SolrCore at multicore/productQuery/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/
+INFO  - 2013-10-08 03:39:00.342; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: productQuery
+INFO  - 2013-10-08 03:39:00.353; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 03:39:00.353; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 03:39:00.353; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index/
+INFO  - 2013-10-08 03:39:00.354; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 03:39:00.353; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index/
+INFO  - 2013-10-08 03:39:00.355; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 03:39:00.373; org.apache.solr.schema.IndexSchema; default search field in schema is content
+INFO  - 2013-10-08 03:39:00.374; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-10-08 03:39:00.375; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-10-08 03:39:00.434; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:39:00.434; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:39:00.447; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:39:00.447; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:39:00.448; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:39:00.448; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:39:00.449; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:39:00.449; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:39:00.453; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:39:00.453; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:39:00.453; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:39:00.453; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:39:00.453; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:39:00.454; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:39:00.459; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:39:00.459; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:39:00.460; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:39:00.460; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:39:00.465; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:39:00.465; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:39:00.489; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:39:00.489; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:39:00.495; org.apache.solr.core.SolrCore; solr.StandardDirectoryFactory
+INFO  - 2013-10-08 03:39:00.496; org.apache.solr.core.SolrCore; [bestAnswer] Opening new SolrCore at multicore/bestAnswer/, dataDir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/
+INFO  - 2013-10-08 03:39:00.497; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: bestAnswer
+INFO  - 2013-10-08 03:39:00.497; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 03:39:00.497; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index/
+INFO  - 2013-10-08 03:39:00.498; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 03:39:00.500; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-10-08 03:39:00.500; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-10-08 03:39:00.500; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-10-08 03:39:00.500; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-10-08 03:39:00.500; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2013-10-08 03:39:00.500; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:39:00.501; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-10-08 03:39:00.501; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-10-08 03:39:00.501; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-10-08 03:39:00.502; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-10-08 03:39:00.503; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-10-08 03:39:00.506; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:39:00.506; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:39:00.506; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:39:00.507; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:39:00.521; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-10-08 03:39:00.521; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-10-08 03:39:00.540; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:39:00.541; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index,segFN=segments_6,generation=6}
+INFO  - 2013-10-08 03:39:00.541; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index,segFN=segments_1,generation=1}
+INFO  - 2013-10-08 03:39:00.541; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:39:00.541; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-10-08 03:39:00.541; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 6
+INFO  - 2013-10-08 03:39:00.552; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@438a3a1d main
+INFO  - 2013-10-08 03:39:00.552; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@27ed688f main
+INFO  - 2013-10-08 03:39:00.578; org.apache.solr.core.SolrCore; [productQuery] Registered new searcher Searcher@27ed688f main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:39:00.578; org.apache.solr.core.SolrCore; [UIMAtester] Registered new searcher Searcher@438a3a1d main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-10-08 03:39:00.578; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@246ce26e main
+INFO  - 2013-10-08 03:39:00.579; org.apache.solr.core.CoreContainer; registering core: productQuery
+INFO  - 2013-10-08 03:39:00.579; org.apache.solr.core.CoreContainer; registering core: UIMAtester
+INFO  - 2013-10-08 03:39:00.579; org.apache.solr.core.SolrCore; [bestAnswer] Registered new searcher Searcher@246ce26e main{StandardDirectoryReader(segments_6:31:nrt _7(4.5):C1)}
+INFO  - 2013-10-08 03:39:00.580; org.apache.solr.core.CoreContainer; registering core: bestAnswer
+INFO  - 2013-10-08 03:39:00.581; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/bjo/workspace/solr-4.5.0/example
+INFO  - 2013-10-08 03:39:00.581; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-10-08 03:39:00.610; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 03:39:08.622; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/admin/luke params={_=1381228748599&show=schema&wt=json} status=0 QTime=13 
+INFO  - 2013-10-08 03:39:08.667; org.apache.solr.core.SolrCore; [bestAnswer] webapp=/solr path=/analysis/field params={analysis.showmatch=true&_=1381228748636&analysis.fieldname=content&analysis.query=ira+for+kid&wt=json&analysis.fieldvalue=beneficiary+roth+ira+for+minors} status=0 QTime=29 
+INFO  - 2013-10-08 04:19:47.415; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2013-10-08 04:19:47.416; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war
+INFO  - 2013-10-08 04:19:48.416; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1211763377
+INFO  - 2013-10-08 04:19:48.417; org.apache.solr.core.SolrCore; [UIMAtester]  CLOSING SolrCore org.apache.solr.core.SolrCore@139d115
+INFO  - 2013-10-08 04:19:48.418; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 04:19:48.418; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 04:19:48.419; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 04:19:48.419; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 04:19:48.421; org.apache.solr.core.SolrCore; [UIMAtester] Closing main searcher on request.
+INFO  - 2013-10-08 04:19:48.422; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 04:19:48.423; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data;done=false>>]
+INFO  - 2013-10-08 04:19:48.423; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data
+INFO  - 2013-10-08 04:19:48.423; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index;done=false>>]
+INFO  - 2013-10-08 04:19:48.424; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/UIMAtester/data/index
+INFO  - 2013-10-08 04:19:48.424; org.apache.solr.core.SolrCore; [productQuery]  CLOSING SolrCore org.apache.solr.core.SolrCore@6885b670
+INFO  - 2013-10-08 04:19:48.424; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 04:19:48.425; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 04:19:48.425; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 04:19:48.425; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 04:19:48.426; org.apache.solr.core.SolrCore; [productQuery] Closing main searcher on request.
+INFO  - 2013-10-08 04:19:48.426; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 04:19:48.426; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data;done=false>>]
+INFO  - 2013-10-08 04:19:48.426; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data
+INFO  - 2013-10-08 04:19:48.426; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index;done=false>>]
+INFO  - 2013-10-08 04:19:48.426; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/productQuery/data/index
+INFO  - 2013-10-08 04:19:48.427; org.apache.solr.core.SolrCore; [bestAnswer]  CLOSING SolrCore org.apache.solr.core.SolrCore@5883de21
+INFO  - 2013-10-08 04:19:48.427; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-10-08 04:19:48.427; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-10-08 04:19:48.427; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-10-08 04:19:48.427; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-10-08 04:19:48.428; org.apache.solr.core.SolrCore; [bestAnswer] Closing main searcher on request.
+INFO  - 2013-10-08 04:19:48.429; org.apache.solr.core.CachingDirectoryFactory; Closing StandardDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-10-08 04:19:48.429; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index;done=false>>]
+INFO  - 2013-10-08 04:19:48.429; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data/index
+INFO  - 2013-10-08 04:19:48.429; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data [CachedDir<<refCount=0;path=/home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data;done=false>>]
+INFO  - 2013-10-08 04:19:48.429; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/bjo/workspace/solr-4.5.0/example/multicore/bestAnswer/data
+INFO  - 2013-10-08 04:19:48.430; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/bjo/workspace/solr-4.5.0/example/solr-webapp/webapp/},/home/bjo/workspace/solr-4.5.0/example/webapps/solr.war

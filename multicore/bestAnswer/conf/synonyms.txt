@@ -21,3 +21,4 @@ MB,mib,megabyte,megabytes
 
 # Synonym mappings can be used for spelling correction too
 
+child,kid,minor,children
